@@ -123,7 +123,7 @@ def popup_window(n1, c1, n2, c2):
         lblResult95 = tk.Label(window, text = "ДА", font = ('Helvetica', 13, 'bold'), fg = '#008800')
         lblResult95.place(x=160, y=25)
     else:
-        lblResult95 = tk.Label(window, text = "НЕТ", font = ('Helvetica', 13, 'bold'), fg = '#ff0000')
+        lblResult95 = tk.Label(window, text = "НЕТ", font = ('Helvetica', 13, 'bold'), fg = '#993300')
         lblResult95.place(x=160, y=25)
     
     lblComment99 = tk.Label(window, text = "99% уверенность:", font = ('Helvetica', 10, 'bold', 'italic'), bg = '#FFFFFF')
@@ -133,7 +133,7 @@ def popup_window(n1, c1, n2, c2):
         lblResult99 = tk.Label(window, text = "ДА", font = ('Helvetica', 13, 'bold'), fg = '#008800')
         lblResult99.place(x=160, y=65)
     else:
-        lblResult99 = tk.Label(window, text = "НЕТ", font = ('Helvetica', 13, 'bold'), fg = '#ff0000')
+        lblResult99 = tk.Label(window, text = "НЕТ", font = ('Helvetica', 13, 'bold'), fg = '#993300')
         lblResult99.place(x=160, y=65)
             
     
